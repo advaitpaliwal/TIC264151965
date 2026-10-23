@@ -1,0 +1,6 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+WARNING: 290844761 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+WARNING: 1037412086 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+WARNING: 264151863 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+WARNING: 264152128 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+9 0.02746759254004061 6.987858667844543e-05 732

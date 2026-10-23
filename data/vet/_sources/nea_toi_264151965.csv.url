@@ -1,0 +1,1 @@
+https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,pl_orbper+from+toi+where+tid=264151965&format=csv

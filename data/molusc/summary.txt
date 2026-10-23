@@ -1,0 +1,10 @@
+generated 200000 kept 92534 frac 0.4627
+reject: RUWE 0.1820  Gaia 0.3732
+stellar (m2>=0.08) generated 144839 kept 37525 frac 0.2591
+TRC-relevant a(1-e)>10AU: generated 0.5288 of all, kept 0.1650 of all
+TRC-relevant & m2>=0.1: kept 0.0161 generated 0.3505
+molusc_out/m50k_s11_all.csv kept frac 0.4666
+molusc_out/m50k_s12_all.csv kept frac 0.4619
+molusc_out/m50k_s13_all.csv kept frac 0.4612
+molusc_out/m50k_s14_all.csv kept frac 0.4610
+wrote 462670 rows

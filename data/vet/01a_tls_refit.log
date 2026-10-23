@@ -1,0 +1,35 @@
+/Users/advaitpaliwal/Scratch/planet-hunt/hunt4/.venv/lib/python3.12/site-packages/transitleastsquares/grid.py:196: UserWarning: period_grid defaults to R_star=1 and M_star=1 as given density yielded grid with too few values
+  warnings.warn(
+/Users/advaitpaliwal/Scratch/planet-hunt/hunt4/.venv/lib/python3.12/site-packages/transitleastsquares/main.py:388: UserWarning: 362 of 377 transits without data. The true period may be twice the given period.
+  warnings.warn(
+Transit Least Squares TLS 2.0 (5 Oct 2026)
+Creating model cache for 11 durations
+Searching 19285 data points, 946 periods from 4.8 to 4.83 days
+Using 1 of 18 CPU threads
+{
+ "period": 4.815809665347842,
+ "period_uncertainty": 9.519704637561688e-05,
+ "T0": 2336.1772068710875,
+ "depth": 0.9987179484412555,
+ "duration": 0.003703789888665818,
+ "SDE": 12.612711610267846,
+ "snr": 6.637616034578221,
+ "odd_even_mismatch": 0.4334645791381677,
+ "transit_count": 377.0,
+ "distinct_transit_count": 15.0,
+ "empty_transit_count": 362.0,
+ "depth_mean_odd": [
+  0.9984722042192373,
+  0.00013277847054980489
+ ],
+ "depth_mean_even": [
+  0.9982591459639607,
+  0.0003587455559352026
+ ],
+ "rp_rs": 0.032200298106300436,
+ "depth_mean": [
+  0.9984011848008119,
+  0.00015102294609379397
+ ],
+ "note": "TLS 2.0 on the search light curve (10-min, flattened); depth is 1-depth flux ratio"
+}

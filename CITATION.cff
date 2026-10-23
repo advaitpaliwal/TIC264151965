@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this candidate, its ephemeris or this code, please cite it as below."
+title: "TIC 264151965.01: a 1.16 Earth-radius, 4.82-day transiting planet candidate around the nearby M dwarf TIC 264151965"
+type: dataset
+authors:
+  - family-names: Paliwal
+    given-names: Advait
+    email: advaitpaliwal@gmail.com
+version: "1.0"
+date-released: "2026-10-23"
+license: CC-BY-4.0
+repository-code: "https://github.com/advaitpaliwal/TIC264151965"
+url: "https://github.com/advaitpaliwal/TIC264151965"
+abstract: >-
+  A transit-like signal on TIC 264151965, an M dwarf at 21.2 pc, found on
+  2026-10-20 in TESS photometry from Sectors 38, 65 and 99 to 102. Period
+  4.8157979 +/- 0.0000050 d, mid-transit BJD_TDB 2459336.1785 +/- 0.0015, depth
+  1255 +/- 66 ppm, duration 1.16 h, radius 1.16 (+0.05/-0.04) Earth radii.
+  False-positive probability 0.079 without companion limits and 0.020 +/- 0.009
+  with MOLUSC Gaia companion limits, no neighbours removed, and no
+  high-resolution imaging, so a planet candidate, not a validated planet.
+keywords:
+  - exoplanet
+  - transit
+  - TESS
+  - planet candidate
+  - M dwarf
+  - TIC 264151965

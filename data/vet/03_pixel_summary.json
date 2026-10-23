@@ -1,0 +1,205 @@
+{
+ "per_sector": [
+  {
+   "sector": 38,
+   "cadence_min": 10.0,
+   "events": 6,
+   "free_fit_offset_arcsec": 2.6,
+   "free_fit_box_px": [
+    6.89999999999999,
+    11.399999999999974,
+    6.999999999999989,
+    10.599999999999977
+   ],
+   "target_xy": [
+    10.96,
+    10.18
+   ],
+   "target_amp": 7.6,
+   "target_amp_err": 1.6,
+   "amp_needed": 6.79,
+   "z": 0.51,
+   "ap3x3_depth_ppm": 573,
+   "ap3x3_err": 109
+  },
+  {
+   "sector": 65,
+   "cadence_min": 3.3,
+   "events": 5,
+   "free_fit_offset_arcsec": 70.7,
+   "free_fit_box_px": [
+    11.499999999999973,
+    13.799999999999965,
+    8.999999999999982,
+    12.49999999999997
+   ],
+   "target_xy": [
+    10.68,
+    10.93
+   ],
+   "target_amp": 6.39,
+   "target_amp_err": 2.03,
+   "amp_needed": 6.93,
+   "z": -0.27,
+   "ap3x3_depth_ppm": 663,
+   "ap3x3_err": 90
+  },
+  {
+   "sector": 99,
+   "cadence_min": 3.3,
+   "events": 4,
+   "free_fit_offset_arcsec": 169.2,
+   "free_fit_box_px": [
+    13.499999999999966,
+    15.999999999999957,
+    4.199999999999999,
+    13.199999999999967
+   ],
+   "target_xy": [
+    11.02,
+    10.88
+   ],
+   "target_amp": 6.55,
+   "target_amp_err": 1.67,
+   "amp_needed": 7.12,
+   "z": -0.34,
+   "ap3x3_depth_ppm": 725,
+   "ap3x3_err": 156
+  },
+  {
+   "sector": 100,
+   "cadence_min": 3.3,
+   "events": 6,
+   "free_fit_offset_arcsec": 5.4,
+   "free_fit_box_px": [
+    10.399999999999977,
+    10.699999999999976,
+    9.999999999999979,
+    10.299999999999978
+   ],
+   "target_xy": [
+    10.67,
+    10.4
+   ],
+   "target_amp": 8.85,
+   "target_amp_err": 1.44,
+   "amp_needed": 6.79,
+   "z": 1.43,
+   "ap3x3_depth_ppm": 796,
+   "ap3x3_err": 145
+  },
+  {
+   "sector": 101,
+   "cadence_min": 3.3,
+   "events": 5,
+   "free_fit_offset_arcsec": 5.7,
+   "free_fit_box_px": [
+    10.499999999999977,
+    10.699999999999976,
+    10.199999999999978,
+    10.499999999999977
+   ],
+   "target_xy": [
+    10.39,
+    10.59
+   ],
+   "target_amp": 9.22,
+   "target_amp_err": 1.31,
+   "amp_needed": 6.6,
+   "z": 2.0,
+   "ap3x3_depth_ppm": 768,
+   "ap3x3_err": 145
+  },
+  {
+   "sector": 102,
+   "cadence_min": 3.3,
+   "events": 6,
+   "free_fit_offset_arcsec": 15.1,
+   "free_fit_box_px": [
+    10.199999999999978,
+    11.499999999999973,
+    9.79999999999998,
+    10.999999999999975
+   ],
+   "target_xy": [
+    10.92,
+    10.49
+   ],
+   "target_amp": 9.48,
+   "target_amp_err": 2.38,
+   "amp_needed": 6.81,
+   "z": 1.12,
+   "ap3x3_depth_ppm": 872,
+   "ap3x3_err": 168
+  }
+ ],
+ "neighbours_within_150arcsec_G<20.5": {
+  "cannot (needs >100% eclipse)": "702",
+  "ruled out by pixels": "31",
+  "NOT excluded": "1"
+ },
+ "within_120arcsec": {
+  "cannot (needs >100% eclipse)": "448",
+  "ruled out by pixels": "31",
+  "NOT excluded": "1"
+ },
+ "not_excluded": [
+  {
+   "source": 5890960105080869888,
+   "Gmag": 12.132421,
+   "sep": 0.0,
+   "dchi2_forced": 20.951447806017768
+  }
+ ],
+ "closest_ruled_out": [
+  {
+   "source": 5890960105080867840,
+   "Gmag": 18.976,
+   "sep": 6.384,
+   "depth_req": 0.79,
+   "dchi2_forced": 32.32,
+   "verdict": "ruled out by pixels"
+  },
+  {
+   "source": 5890960105096573952,
+   "Gmag": 19.807,
+   "sep": 7.499,
+   "depth_req": 1.296,
+   "dchi2_forced": 63.587,
+   "verdict": "cannot (needs >100% eclipse)"
+  },
+  {
+   "source": 5890960173812844544,
+   "Gmag": 18.417,
+   "sep": 8.878,
+   "depth_req": 0.321,
+   "dchi2_forced": 58.946,
+   "verdict": "ruled out by pixels"
+  },
+  {
+   "source": 5890960105080873984,
+   "Gmag": 19.926,
+   "sep": 9.428,
+   "depth_req": 1.787,
+   "dchi2_forced": 61.968,
+   "verdict": "cannot (needs >100% eclipse)"
+  },
+  {
+   "source": 5890960100773204992,
+   "Gmag": 18.472,
+   "sep": 11.151,
+   "depth_req": 0.503,
+   "dchi2_forced": 93.456,
+   "verdict": "ruled out by pixels"
+  },
+  {
+   "source": 5890960100763777024,
+   "Gmag": 18.725,
+   "sep": 12.052,
+   "depth_req": 0.646,
+   "dchi2_forced": 83.824,
+   "verdict": "ruled out by pixels"
+  }
+ ],
+ "note": "Gaia source IDs in pix/ files are float-rounded by pandas in their last 3-4 digits (target 5890960105080869632 appears as ...869888); positions and G mags are exact."
+}

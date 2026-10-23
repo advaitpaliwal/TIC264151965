@@ -1,0 +1,1 @@
+https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,tic_id,pl_orbper+from+ps+where+tic_id='TIC+264151965'&format=csv

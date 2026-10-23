@@ -1,0 +1,13 @@
+{
+ "ExoFOP_target_page": {"url": "https://exofop.ipac.caltech.edu/tess/target.php?id=264151965", "fetched": "2026-10-22", "saved": "_sources/exofop_target_264151965.html", "result": "maintenance page: 'The ExoFOP services are under maintenance, please come back later.' TOI/CTOI CSV endpoints returned the same page. Not checkable live."},
+ "local_TOI_CTOI_snapshots": {"files": ["../../_sources/toi.csv (2026-10-08)", "../../_sources/ctoi.csv (2026-10-08)", "../../hz-south/_sources/toi.csv (2026-10-16, 8152 rows)", "../../hz-south/_sources/ctoi.csv (2026-10-16, 5139 rows)", "../../held/_sources/toi_2026-10-10.csv", "../../held/_sources/ctoi_2026-10-10.csv"], "hits_for_264151965": 0},
+ "NASA_Exoplanet_Archive": {"toi_table": "_sources/nea_toi_264151965.csv: header only, 0 rows (table has 8151 rows)", "ps_table": "_sources/nea_ps_264151965.csv: header only, 0 rows"},
+ "SPOC_TCE": {"dir": "../../hz-near/_sources/tce/", "files_searched": 132, "includes": ["s0038-s0038", "s0065-s0065", "s0001-s0065"], "hits": 0},
+ "Eumemic": {"clone": "_sources/eumemic (HEAD e26c5071436e239f1a19528dc2973529d5a6c642, 2026-10-21)", "candidates_csvs_hits": 0,
+   "vetted_signals.csv.gz": "3 rows: 4.815785 d (rank 11, 1264 ppm, n_fail 0, LEO pass, known_status new); 0.59256 d and 0.52391 d (both failed LEO: events not unique, unphysical orbit, inconsistent SNRs, significant secondary)",
+   "followup_kmdwarfs.csv": "264151965,rank 11,P 4.815785,1264 ppm,offset_qual 106.5,offset_mean 87.2,n_capable_2.5arcmin 284,nearest_capable 8.2 arcsec,flags 'offset,close_nb'",
+   "README.md:853": "'It rejects TIC 264151965, which we had set aside, with a 106″ offset.'"},
+ "VizieR_120arcsec": {"file": "evidence/02_catalogs_raw.json",
+   "target": "VSX lists Gaia DR3 5890960105080869632 (the target, 0.02\") as type ROT, G 12.12-12.15, no period. Gaia DR3 vclassre: SOLAR_LIKE, score 0.04. Not in Gaia DR3 eclipsing binaries (I/358/veb) or short-timescale (I/358/vst) at the target.",
+   "neighbour_variables": ["Gaia DR3 RRAB 5890936706111098752, 24.5\", G 19.2-19.8, P 0.52389 d", "Gaia DR3 'L' 5890960173812844800, 12.4\", G 18.25-18.62", "Gaia DR3 'L' 5890960105093361920, 18.4\", G 17.70-17.96", "ASASSN-V J142912.22-584458.1, EW, 76.7\", V 14.36-14.56, P 0.396213 d (= Gaia DR3 ECL 5890960379971301888)", "Gaia DR3 ECL 5890959486618074752, 101.6\", freq 2.48/d (P 0.4032 d), = GDS_J1429307-584529", "Gaia DR3 ROT 75.5\", SR|M 87.5\", LPV 115.6\""]}
+}

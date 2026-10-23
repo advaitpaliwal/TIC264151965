@@ -1,0 +1,18 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+Star RA: 14h29m18.192s
+Star DEC: -58d45m59.04s
+Star Mass: 0.289
+Generating Companions..
+Generation Mass Ratio Exponent:  0.0
+Companions Generated
+Number of companions: 50000
+Analyzing RUWE...
+VizieR Gaia: nearest 5890960105080869632 RUWE 1.181
+Analyzing Gaia Contrast...
+LOADING STELLAR MODEL...
+VizieR Gaia: nearest 5890960105080869632 RUWE 1.181
+WARNING: More than one source within 10 arcseconds of given coordinates. Closest one used.
+Star Model Mag 10.582163459528536
+Total number of surviving binaries: 23058
+Surviving binary parameters saved to: /Users/advaitpaliwal/Scratch/planet-hunt/v4/vet_264151965/molusc_out/m50k_s13_kept.csv
+Generated binary parameters saved to: /Users/advaitpaliwal/Scratch/planet-hunt/v4/vet_264151965/molusc_out/m50k_s13_all.csv

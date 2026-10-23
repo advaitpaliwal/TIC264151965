@@ -1,0 +1,56 @@
+{
+ "S38_SPOC": {
+  "SAP_FLUX": {
+   "depth_ppm": 915.0322472775141,
+   "err_ppm": 168.78293651671268,
+   "n_in": 174,
+   "crowdsap": 0.8892225,
+   "depth_ppm_crowd_corrected": 1029.0250722147878,
+   "err_crowd_corrected": 189.809565678683
+  },
+  "PDCSAP_FLUX": {
+   "depth_ppm": 1206.288552846102,
+   "err_ppm": 158.5963926114859,
+   "n_in": 174
+  }
+ },
+ "S65_SPOC": {
+  "SAP_FLUX": {
+   "depth_ppm": 940.0551820005765,
+   "err_ppm": 164.70572481547515,
+   "n_in": 143,
+   "crowdsap": 0.86347085,
+   "depth_ppm_crowd_corrected": 1088.6935928416997,
+   "err_crowd_corrected": 190.7484483297556
+  },
+  "PDCSAP_FLUX": {
+   "depth_ppm": 1034.5591041230896,
+   "err_ppm": 188.86367942950062,
+   "n_in": 143
+  }
+ },
+ "S99_QLP": {
+  "SAP_FLUX": {
+   "depth_ppm": 1151.5620298430117,
+   "err_ppm": 160.41341725029142,
+   "n_in": 70
+  },
+  "DET_FLUX": {
+   "depth_ppm": 1199.1070678991632,
+   "err_ppm": 161.33656135626924,
+   "n_in": 70
+  }
+ },
+ "S100_QLP": {
+  "SAP_FLUX": {
+   "depth_ppm": 1134.9054553965177,
+   "err_ppm": 161.97169256850958,
+   "n_in": 69
+  },
+  "DET_FLUX": {
+   "depth_ppm": 1002.9080663349621,
+   "err_ppm": 159.38494994019956,
+   "n_in": 69
+  }
+ }
+}
