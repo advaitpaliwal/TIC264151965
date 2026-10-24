@@ -49,5 +49,5 @@ Same 20 stars un-inverted, against their TLS res_v4 first peak (`gpu_ctrl/calib_
 
 ## Launch command (not run)
 ```
-ssh -o IdentityAgent=none -o IdentitiesOnly=yes -i ~/.ssh/id_ed25519_mesh advaitpaliwal@spark 'cd ~/planet-hunt/v4 && PATH=/usr/local/cuda/bin:$PATH OMP_NUM_THREADS=1 nohup nice -n 5 ../gpu_bakeoff/.venv/bin/python -I drive_gpu.py --prefetch 4 hz-north hz-south hz-near > drive_gpu.log 2>&1 & echo $! > drive_gpu.pid'
+cd ~/planet-hunt/v4 && PATH=/usr/local/cuda/bin:$PATH OMP_NUM_THREADS=1 nohup nice -n 5 ../gpu_bakeoff/.venv/bin/python -I drive_gpu.py --prefetch 4 hz-north hz-south hz-near > drive_gpu.log 2>&1 & echo $! > drive_gpu.pid
 ```
