@@ -1,14 +1,16 @@
-# TIC 264151965.01: a 1.16 Earth-radius, 4.82-day transiting planet candidate at 21 pc
+# L 198-93 (TIC 264151965): independent vetting of a 4.82-day transit candidate at 21 pc
 
-Discovered by Advait Paliwal on 2026-10-20 in public TESS photometry (search result written 2026-10-20 06:25 PDT, `data/search/264151965_search_result.json`).
+**Branden Murray posted this candidate first.** On 2026-10-08 he published "Pre-registered TESS Sector 113–114 Test of the L 198-93 Transit Candidate" on Zenodo (https://doi.org/10.5281/zenodo.23230562), with a pre-data clarification on 2026-10-09 (https://doi.org/10.5281/zenodo.23270064). He found the 4.8158 d signal in QLP Sectors 99 to 102, recovered it in Sectors 38 and 65, and froze predicted transit times and a decision rule for TESS Sectors 113 and 114 (January to March 2027). Please cite his record for the candidate.
+
+Advait Paliwal's search of 3,883 nearby red dwarfs recovered the same signal on 2026-10-20 (`data/search/264151965_search_result.json`), without knowing of Murray's record. Version 1.0 of this repository (2026-10-23) wrongly presented it as a discovery. This repository is an independent vetting of Murray's candidate: six-sector pixel fits, a raw-flux check, and TRICERATOPS false-positive probabilities with and without MOLUSC companion limits.
 
 ## Summary
 
-TIC 264151965 (Gaia DR3 5890960105080869632) is an M dwarf (Teff 3430 K, 0.310 R☉, 0.289 M☉) at 21.2 pc. TESS light curves from Sectors 38 and 65 (SPOC 2-minute) and 99 to 102 (QLP full-frame images), spanning 2021 to 2026, show 29 transits with period 4.815798 d, depth 1,255 ± 66 ppm and duration 1.16 h, which implies a radius of 1.16 (+0.05 / −0.04) Earth radii and an insolation of 8.8 times Earth's. Odd and even depths agree, there is no secondary eclipse, the dip is in the raw (SAP) flux, and difference images in all six sectors place it on the target and rule out every Gaia star within 150″ brighter than G = 20.5. As of 2026-10-16 the star is not a TOI or a CTOI, and it is not a NASA Exoplanet Archive host or a SPOC TCE.
+L 198-93 = TIC 264151965 (Gaia DR3 5890960105080869632) is an M dwarf (Teff 3430 K, 0.310 R☉, 0.289 M☉) at 21.2 pc. TESS light curves from Sectors 38 and 65 (SPOC 2-minute) and 99 to 102 (QLP full-frame images), spanning 2021 to 2026, show 29 transits with period 4.815798 d, depth 1,255 ± 66 ppm and duration 1.16 h, which implies a radius of 1.16 (+0.05 / −0.04) Earth radii and an insolation of 8.8 times Earth's. Odd and even depths agree, there is no secondary eclipse, the dip is in the raw (SAP) flux, and difference images in all six sectors place it on the target and rule out every Gaia star within 150″ brighter than G = 20.5. As of 2026-10-16 the star is not a TOI or a CTOI, and it is not a NASA Exoplanet Archive host or a SPOC TCE. Murray (2026) put the difference-image source 2.2″ ± 1.7″ from the star in four sectors and found a TRICERATOPS false-positive probability of 0.08; the results here agree.
 
 **This is a planet candidate, not a validated or confirmed planet.** The TRICERATOPS false-positive probability is 0.079 ± 0.004 (NFPP 7 × 10⁻⁵) without companion limits, and 0.020 ± 0.009 with Gaia companion limits from MOLUSC (Wood, Mann & Kraus 2021, AJ 162, 128). No neighbours were removed in either run. Both values are above the 0.015 threshold for statistical validation, and almost all of the remaining probability is a planet orbiting an unresolved bound companion. There is no high-resolution imaging of this star.
 
-Eumemic (2026), https://github.com/eumemic/exoplanets (commit e26c507), found the same 4.8158 d signal and rejected it because their highest-quality difference-image centroid lay 106.5″ from the target (`results_public/followup_kmdwarfs.csv`, flags `offset,close_nb`; README: "It rejects TIC 264151965, which we had set aside, with a 106″ offset."). Our six-sector pixel fits put the dip on the target: the fitted flux loss at the target matches the light-curve depth in every sector (z = −0.3 to 2.0), and forcing the signal onto the G = 11.74 star at 106.8″ needs a 36% eclipse and gives Δχ² = 2 × 10⁷. A free-position fit lands 2.6″ to 15″ from the target in four sectors, and 71″ and 169″ away in Sectors 65 and 99, which have 5 and 4 transits.
+Eumemic (2026), https://github.com/eumemic/exoplanets (commit e26c507), found the same 4.8158 d signal and rejected it because their highest-quality difference-image centroid lay 106.5″ from the target (`results_public/followup_kmdwarfs.csv`, flags `offset,close_nb`; README: "It rejects TIC 264151965, which we had set aside, with a 106″ offset."). Eumemic's listing (2026-10-21) came after Murray's record. Our six-sector pixel fits put the dip on the target: the fitted flux loss at the target matches the light-curve depth in every sector (z = −0.3 to 2.0), and forcing the signal onto the G = 11.74 star at 106.8″ needs a 36% eclipse and gives Δχ² = 2 × 10⁷. A free-position fit lands 2.6″ to 15″ from the target in four sectors, and 71″ and 169″ away in Sectors 65 and 99, which have 5 and 4 transits.
 
 | | |
 |---|---|
@@ -22,9 +24,11 @@ Eumemic (2026), https://github.com/eumemic/exoplanets (commit e26c507), found th
 | False-positive probability | 0.079 ± 0.004 (no companion limits), 0.020 ± 0.009 (MOLUSC Gaia limits); no neighbours removed |
 | High-resolution imaging | none |
 
+**Comparison with Murray's frozen ephemeris.** Murray (2026) gives P = 4.8158055 ± 0.0000057 d and T0 = BJD_TDB 2461079.49753 ± 0.00114. Our period is 7.6 × 10⁻⁶ d shorter, a 1.0σ difference. For his twelve 2027 epochs (72 to 83) our ephemeris predicts mid-transit 1.1 to 1.2 minutes earlier than his table, inside his 1σ of 3.3 to 3.6 minutes, so the two ephemerides agree for his test. His radius ratio, 0.0339 (+0.0024 / −0.0015), and depth, 1,280 ppm at mid-transit for his model, also match ours.
+
 ## Contents
 
-- `note/TIC264151965_note.md`, `note/TIC264151965_note.pdf`: the research note (draft; not submitted to a journal).
+- `note/TIC264151965_note.md`, `note/TIC264151965_note.pdf`: the research note, revised in v1.1 to credit Murray (2026) (draft; not submitted to a journal).
 - `note/figure1_TIC264151965.png`: the six sectors folded on the period, the Sector 101 light curve, odd and even transits, and phase 0.5.
 - `ephemeris.csv`: predicted mid-transit times from 2026-10-23 to 2027-12-31 with 1σ timing uncertainty.
 - `code/search/`: the star search (`run_star.py` for Transit Least Squares, `run_star_gpu.py` and `drive_gpu.py` for the cuvarbase GPU box search, `GPU.md` for its calibration and control planets, `edgefix/` for the light-curve preparation tests).
@@ -68,11 +72,11 @@ Some scripts use paths relative to the original working folders; adjust them to 
 
 ## Credits
 
-This work uses data collected by the TESS mission, funded by the NASA Science Mission Directorate, obtained from the Mikulski Archive for Space Telescopes (MAST), including SPOC (Jenkins et al. 2016) and QLP (Huang et al. 2020) light curves and TESScut cutouts. It uses data from the European Space Agency mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium, and the TESS Input Catalog (Stassun et al. 2019). Companion limits use MOLUSC (Wood, Mann & Kraus 2021, AJ 162, 128); false-positive probabilities use TRICERATOPS (Giacalone & Dressing 2020; Giacalone et al. 2021); vetting uses LEO-vetter (Kunimoto et al. 2025). Full references are in the note.
+This work uses data collected by the TESS mission, funded by the NASA Science Mission Directorate, obtained from the Mikulski Archive for Space Telescopes (MAST), including SPOC (Jenkins et al. 2016) and QLP (Huang et al. 2020) light curves and TESScut cutouts. It uses data from the European Space Agency mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium, and the TESS Input Catalog (Stassun et al. 2019). The candidate was first posted by Branden Murray (2026), Pre-registered TESS Sector 113–114 Test of the L 198-93 Transit Candidate, Zenodo, doi:10.5281/zenodo.23230562. Companion limits use MOLUSC (Wood, Mann & Kraus 2021, AJ 162, 128); false-positive probabilities use TRICERATOPS (Giacalone & Dressing 2020; Giacalone et al. 2021); vetting uses LEO-vetter (Kunimoto et al. 2025). Full references are in the note.
 
 ## Licence and citation
 
-Code is under the MIT licence (`LICENSE`). Text, figures and data are under CC BY 4.0 (`LICENSE-CC-BY-4.0`). Please cite with `CITATION.cff`.
+Code is under the MIT licence (`LICENSE`). Text, figures and data are under CC BY 4.0 (`LICENSE-CC-BY-4.0`). Please cite Murray (2026) for the candidate and `CITATION.cff` for this vetting.
 
 ## Contact
 

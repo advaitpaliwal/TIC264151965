@@ -1,28 +1,48 @@
 cff-version: 1.2.0
-message: "If you use this candidate, its ephemeris or this code, please cite it as below."
-title: "TIC 264151965.01: a 1.16 Earth-radius, 4.82-day transiting planet candidate around the nearby M dwarf TIC 264151965"
+message: "The L 198-93 candidate was first posted by Branden Murray (doi:10.5281/zenodo.23230562); cite that record for the candidate. If you use this vetting, its ephemeris or this code, please cite it as below."
+title: "L 198-93 (TIC 264151965): independent vetting of the 4.82-day transit candidate pre-registered by Murray (2026)"
 type: dataset
 authors:
   - family-names: Paliwal
     given-names: Advait
     email: advaitpaliwal@gmail.com
-version: "1.0"
-date-released: "2026-10-23"
+version: "1.1"
+date-released: "2026-11-11"
 license: CC-BY-4.0
 repository-code: "https://github.com/advaitpaliwal/TIC264151965"
 url: "https://github.com/advaitpaliwal/TIC264151965"
 abstract: >-
-  A transit-like signal on TIC 264151965, an M dwarf at 21.2 pc, found on
-  2026-10-20 in TESS photometry from Sectors 38, 65 and 99 to 102. Period
-  4.8157979 +/- 0.0000050 d, mid-transit BJD_TDB 2459336.1785 +/- 0.0015, depth
-  1255 +/- 66 ppm, duration 1.16 h, radius 1.16 (+0.05/-0.04) Earth radii.
-  False-positive probability 0.079 without companion limits and 0.020 +/- 0.009
-  with MOLUSC Gaia companion limits, no neighbours removed, and no
-  high-resolution imaging, so a planet candidate, not a validated planet.
+  Independent vetting of the 4.8158 d transit candidate on the M dwarf
+  L 198-93 (TIC 264151965) at 21.2 pc, posted first by Murray (2026,
+  Zenodo, doi:10.5281/zenodo.23230562) with a pre-registered test in TESS
+  Sectors 113 and 114. TESS Sectors 38, 65 and 99 to 102 give period
+  4.8157979 +/- 0.0000050 d (1.0 sigma from Murray's), mid-transit BJD_TDB
+  2459336.1785 +/- 0.0015, depth 1255 +/- 66 ppm, duration 1.16 h, radius
+  1.16 (+0.05/-0.04) Earth radii. Pixel fits in all six sectors place the
+  dip on the target. False-positive probability 0.079 without companion
+  limits and 0.020 +/- 0.009 with MOLUSC Gaia companion limits, no
+  neighbours removed, and no high-resolution imaging, so a planet
+  candidate, not a validated planet.
 keywords:
   - exoplanet
   - transit
   - TESS
   - planet candidate
   - M dwarf
+  - L 198-93
   - TIC 264151965
+references:
+  - type: data
+    title: "Pre-registered TESS Sector 113–114 Test of the L 198-93 Transit Candidate"
+    authors:
+      - family-names: Murray
+        given-names: Branden
+    year: 2026
+    doi: 10.5281/zenodo.23230562
+  - type: data
+    title: "Pre-data clarification to the pre-registered TESS Sector 113–114 test of L 198-93"
+    authors:
+      - family-names: Murray
+        given-names: Branden
+    year: 2026
+    doi: 10.5281/zenodo.23270064
